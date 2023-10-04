@@ -1,29 +1,30 @@
-# stock-trader
+## 💻 Projeto Stock Trader
 
-## Project setup
-```
-npm install
-```
+Esse é um projeto para compra e venda de ações, onde é possivel salvar os dados de saldo e depois carregar esses dados salvos. Ao finalizar o dia os preços das ações irão mudar.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+É necessário criar um database no firebase da google para armazenar os dados.
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your tests
-```
-npm run test
-```
+## 🚀 Tecnologias utilizadas:
+- Vue.js para construção da aplicação.
+- Vuetify framework para material design.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Layout:
+<img src="https://github.com/rodrisoares/stock-trader/blob/main/src/assets/gif/stock-trader.gif" />
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Rodando a aplicação:
+```
+# Clone este repositório:
+$ git clone https://github.com/rodrisoares/pokedex-vue.git
+
+# Acesse a pasta do projeto no seu terminal/cmd:
+$ cd stock-trader
+
+# Instale as dependências:
+$ yarn install
+
+# Execute a aplicação em um terminal:
+$ yarn serve
+
+# A aplicação será aberta no endereço http://localhost:8080/
+```
